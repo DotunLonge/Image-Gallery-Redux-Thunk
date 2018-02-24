@@ -1,0 +1,31 @@
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    background: rgb(45, 50, 53);
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.sidebar li {
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sidebar li img {
+    height: 200px;
+    width: 230px;
+    border: 3px solid white;
+    border-radius: 2px;
+    object-fit: cover;
+    object-position: center;
+}

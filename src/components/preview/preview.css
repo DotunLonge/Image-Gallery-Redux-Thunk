@@ -1,0 +1,19 @@
+.preview {
+    background: black;
+    height: 100vh;
+    color: white;
+    margin-left: auto;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.preview img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
